@@ -11,12 +11,12 @@
 # pip install pyarrow
 # pip install certifi
 
-import urllib3
-from urllib3 import request
-import certifi
+# Import modules
 import json
 import sqlite3
+import certifi
 import pandas as pd
+import urllib3
 
 
 def source_data_from_parquet(parquet_file_name):
